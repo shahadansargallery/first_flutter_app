@@ -18,7 +18,11 @@ class Homepage extends StatelessWidget {
 
         Padding(
           padding: const EdgeInsets.only(left: 20),
-          child: Row(children: [Text("Categories")]),
+          child: Row(
+            children: [
+              Text("Categories", style: TextStyle(fontWeight: FontWeight.bold)),
+            ],
+          ),
         ),
         SizedBox(height: 20),
         Row(
@@ -26,7 +30,11 @@ class Homepage extends StatelessWidget {
           children: [
             Icon(Icons.heart_broken_outlined, size: 30, color: Colors.red),
             Icon(Icons.medication_liquid_rounded, size: 30, color: Colors.red),
-            Icon(Icons.local_hospital, size: 30, color: Colors.red),
+            Icon(
+              Icons.local_hospital,
+              size: 30,
+              color: const Color.fromARGB(255, 80, 58, 57),
+            ),
             Icon(Icons.timelapse_outlined, size: 30, color: Colors.red),
           ],
         ),

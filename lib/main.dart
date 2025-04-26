@@ -1,3 +1,4 @@
+import 'package:blinkit_app/firstScreen.dart';
 import 'package:blinkit_app/home.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.purple),
       ),
-      home: Homepage(),
+      // home: Homepage(),
+      home: Firstscreen(),
     );
   }
 }
